@@ -32,11 +32,29 @@
   </head>
   <body>
     <!-- Main Content -->
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+    <main class="max-w-screen-xl mx-auto px-5 lg:px-28">
+      <section class="flex justify-between items-center py-10">
+        <div>
+          <img src="./images/cup.png" alt="">
+        </div>
+        <div class="menu">
+          <ul class="lg:flex hidden">
+              <li class="ml-14">Home</li>
+              <li class="ml-14">Product</li>
+              <li class="ml-14">About us</li>
+              <li class="ml-14">Contact us</li>
+          </ul>
+          <span class="lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+              </svg>  
+          </span>
+        </div>
+      </section>
       <!-- Header Section -->
-      <header class="lg:flex pt-20 mb-20">
+      <header class="lg:flex pt-4 lg:pt-20 mb-20">
         <!-- Text content -->
-        <div class="w-[60%]"> 
+        <div class="lg:w-1/2 w-full"> 
           <h1 class="text-5xl font-bold md:text-7xl">
             It's good <br />
             tea time at The <br />
@@ -56,20 +74,20 @@
           </button>
         </div>
         <!-- Image Content -->
-        <div class="relative">
+        <div class="relative mt-16 lg:w-1/2 w-full">
           <!-- Image -->
           <div>
             <img class="w-full" src="./images/banner.png" alt="" />
           </div>
           <!-- Card -->
           <div
-            class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-28 md:top-80 md:left-32 lg:left-12"
+            class="absolute flex items-center bg-white shadow-lg px-6 py-3 md:px-10 lg:py-4 rounded-lg top-60 md:top-80 left-12 lg:left-12"
           >
             <!-- icon -->
             <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
             <!-- Text -->
             <div class="ml-2">
-              <h2 class="lg:text-2xl font-bold">5.00</h2>
+              <h2 class="lg:text-2xl text-2xl font-bold">5.00</h2>
               <p class="text-gray-500">Trust Pilot Ratings</p>
             </div>
           </div>
@@ -229,7 +247,7 @@
 
             <!-- top card -->
             <div
-              class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
+              class="relative left-3 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
             >
               <div class="absolute -top-5 -left-5 bg-white rounded-full">
                 <img class="p-1" src="./images/client.png" alt="" />
@@ -246,7 +264,7 @@
 
             <!-- bottom card -->
             <div
-              class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
+              class="relative left-3 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40"
             >
               <div class="absolute -top-5 -left-5 bg-white rounded-full">
                 <img class="p-1" src="./images/client.png" alt="" />
@@ -264,13 +282,14 @@
         </div>
       </section>
 
+
       <!-- News Section Homwork -->
     </main>
     <!-- Footer Section -->
     <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
       <div class="w-9/12 mx-auto">
         <!-- Logo -->
-        <div class="mb-8 flex justify-between">
+        <div class="mb-8 lg:flex justify-between">
           <img class="mb-8" src="./images/cup.png" alt="" />
           <div class="flex items-center gap-2">
             <h4>Ready to get started?</h4>
